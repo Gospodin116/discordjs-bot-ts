@@ -1,0 +1,35 @@
+{
+  "name": "ac_community",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/bootstrap.ts",
+  "scripts": {
+    "dev": "webpack --mode=development --watch",
+    "start": "node dist/index.js"
+  },
+  "author": {
+    "name": "Gospodin116",
+    "email": "gospodin116@internet.ru",
+    "url": "https://vk.com/gospodin116"
+  },
+  "devDependencies": {
+    "node-loader": "^2.0.0",
+    "ts-loader": "^9.2.5",
+    "typescript": "^4.3.5",
+    "webpack": "^5.48.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "dependencies": {
+    "@discordjs/opus": "^0.5.3",
+    "bufferutil": "^4.0.3",
+    "discord.js": "^13.0.0-dev.t1628035429.00d5cee",
+    "dotenv": "^10.0.0",
+    "erlpack": "github:discord/erlpack",
+    "ffmpeg-static": "^4.4.0",
+    "libsodium-wrappers": "^0.7.9",
+    "opusscript": "^0.0.8",
+    "utf-8-validate": "^5.0.5",
+    "zlib-sync": "^0.1.7"
+  }
+}

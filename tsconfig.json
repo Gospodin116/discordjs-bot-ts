@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "noImplicitUseStrict": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+
+    "sourceMap": false
+  },
+
+  "include": [
+    "**/*"
+  ]
+}
